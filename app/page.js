@@ -1,4 +1,6 @@
+// app/page.js
 import { createServer } from "@/lib/supabase";
+import { CreateIdea } from "./create-idea"; // Import the new component
 
 export default async function Home() {
   const supabase = createServer();
@@ -12,6 +14,8 @@ export default async function Home() {
           <span className="text-sm text-muted-foreground">
             Welcome, Founder!
           </span>
+          {/* Add the CreateIdea component here */}
+          <CreateIdea />
         </div>
       </header>
       <main className="flex-1 p-6">
