@@ -1,7 +1,4 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
+@import "tailwindcss";
 @layer base {
   :root {
     --background: 0 0% 100%;
